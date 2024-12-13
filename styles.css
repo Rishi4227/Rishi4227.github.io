@@ -5,157 +5,109 @@ body {
     padding: 0;
     line-height: 1.6;
     color: #333;
-    background-color: #f9f9f9;
+    background-color: #f4f4f9;
   }
   
-  /* Header Section */
-  header.hero {
+  /* Hero Section */
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     background: linear-gradient(to right, #1f4037, #99f2c8);
     color: white;
-    text-align: center;
     padding: 50px 20px;
   }
   
-  header.hero h1 span {
+  .hero h1 span {
     color: #ffbf00;
   }
   
-  .cta-buttons a {
+  .hero .cta-buttons a {
     margin: 10px;
     padding: 10px 20px;
     text-decoration: none;
     color: white;
     background: #ffbf00;
     border-radius: 5px;
-    display: inline-block;
     font-weight: bold;
   }
   
-  .cta-buttons a.btn-outline {
+  .hero .cta-buttons a.btn-outline {
     background: transparent;
     border: 2px solid #ffbf00;
   }
   
+  .hero .hero-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  /* Floating Animation */
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
   /* About Section */
   .about {
-    background-color: #fff;
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    padding: 40px 20px;
     margin: 20px auto;
-  }
-  
-  .about ul {
-    list-style-type: disc;
-    padding-left: 20px;
-  }
-  
-  /* Skills Section */
-  .skills {
-    text-align: center;
-    padding: 30px 0;
-    background-color: #eef2f3;
-  }
-  
-  .skill-icons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    padding: 20px;
-  }
-  
-  .skill-icons .icon {
-    text-align: center;
-    font-size: 2rem;
-    color: #1f4037;
-  }
-  
-  .skill-icons .icon p {
-    margin-top: 5px;
-    font-size: 1rem;
-    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   /* Projects Section */
   .projects {
-    padding: 30px;
-    background-color: #fff;
-    margin: 20px auto;
-    border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background: #eef2f3;
+    padding: 40px 20px;
   }
   
   .projects .project {
-    margin-bottom: 20px;
-    background: #f9f9f9;
+    margin: 20px 0;
     padding: 20px;
+    background: white;
     border-radius: 10px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .projects .project h3 {
-    color: #1f4037;
-  }
-  
-  .projects .project a {
-    text-decoration: none;
-    color: white;
-    background: #1f4037;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-weight: bold;
-    display: inline-block;
-    margin-top: 10px;
-  }
-  
-  .projects .project a:hover {
-    background: #144026;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   /* Contact Section */
   .contact {
-    padding: 30px;
-    background: #eef2f3;
-    margin: 20px auto;
-    border-radius: 10px;
+    padding: 40px 20px;
     text-align: center;
-  }
-  
-  .contact form label {
-    display: block;
-    margin: 10px 0 5px;
+    background: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   }
   
   .contact form input, .contact form textarea {
-    width: 100%;
+    width: 80%;
     max-width: 600px;
+    margin: 10px auto;
     padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
     border-radius: 5px;
   }
   
   .contact form button {
     background: #1f4037;
-    border: none;
     color: white;
     padding: 10px 20px;
+    border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-weight: bold;
   }
   
-  .contact form button:hover {
-    background: #144026;
-  }
-  
-  /* Footer */
   footer.footer {
     text-align: center;
     padding: 20px;
     background: #1f4037;
     color: white;
-    margin-top: 40px;
   }
   
