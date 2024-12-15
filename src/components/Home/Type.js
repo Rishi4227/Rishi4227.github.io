@@ -9,7 +9,7 @@ function Type() {
           "AI Enthusiast",
           "Machine Learning Developer",
           "Web Developer",
-          "Kotlin Developer",
+          "Python Developer",
           "Open Source Contributor",
           "Final Year Computer Science Student",
         ],
