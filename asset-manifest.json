@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b53562b.css",
+    "main.js": "/static/js/main.3770acf0.js",
+    "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
+    "static/media/euroconnectGui .png": "/static/media/euroconnectGui .a2c55728dc12ff459649.png",
+    "static/media/sentiment.png": "/static/media/sentiment.00919036112033dc322d.png",
+    "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/profile.jpeg": "/static/media/profile.aa5dc6c59b6716e5e1b0.jpeg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/CV.pdf": "/static/media/CV.c78cca9312aa84948a14.pdf",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/emotion.png": "/static/media/emotion.a8f75137d405ad9aa111.png",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.5b53562b.css.map": "/static/css/main.5b53562b.css.map",
+    "main.3770acf0.js.map": "/static/js/main.3770acf0.js.map",
+    "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5b53562b.css",
+    "static/js/main.3770acf0.js"
+  ]
+}
